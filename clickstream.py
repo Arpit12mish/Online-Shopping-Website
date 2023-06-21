@@ -96,3 +96,5 @@ if st.button('Predict'):
     result = prediction[0]
 
     st.write("Predicted Price:", result)
+    video_url = "https://youtu.be/E1KdSvDnq6M"  # Replace with your YouTube video URL or ID
+st.video(video_url)
